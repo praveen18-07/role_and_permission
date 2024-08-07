@@ -9,13 +9,16 @@ First, you need to install the laravel/ui package as shown below:
 composer require laravel/ui
 
 Install NPM:
+-------------
 npm install
 
 Run NPM:
+-------------
 npm run build
 
 we have to run the below command to execute the PermissionTableSeeder and CreateAdminUserSeeder seeder:
 ---------------------------------------------------------------------------------------------------------
 php artisan db:seed --class=PermissionTableSeeder
+
 php artisan db:seed --class=CreateAdminUserSeeder
 
